@@ -37,6 +37,8 @@ df
 df.describe()
 df.dtypes
 
+PyMC
+
 #####################################
 ### Análise Exploratória de Dados ###
 #####################################
