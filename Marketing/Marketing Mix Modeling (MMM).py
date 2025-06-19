@@ -20,28 +20,37 @@ install_packages(packages_list)
 ### Load Packages ###
 #####################
 
-import pyomo.environ as pyo
-import gurobipy as gp
-import pandas as pd 
+import pandas as pd
 import seaborn as sns
-import plotly.express as px
 import numpy as np
-import panel as pn 
-import seaborn.objects as so
 import matplotlib as mpl
-import colorcet as cc
 import matplotlib.pyplot as plt
-import math
-import datetime
-import param
-import sklearn
-import scipy
-import string
-import random
-import torch
-import os
-from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline, BitsAndBytesConfig
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder, MinMaxScaler
-from sklearn.naive_bayes import GaussianNB as GNB
+import plotly.express as px
+from matplotlib.colors import LinearSegmentedColormap
+from statsmodels.stats.outliers_influence import variance_inflation_factor
+from statsmodels.tools.tools import add_constant
+from scipy.stats import skew, boxcox
 
+df = pd.read_csv("https://drive.google.com/uc?export=download&id=1wMapByTvMFt16zz9Bd2643eTHJXtEhnX")
+df
+
+df.describe()
+df.dtypes
+
+#####################################
+### Análise Exploratória de Dados ###
+#####################################
+
+# Verificar a presença de valores nulos
+
+df.isnull().sum()
+df.count()
+
+# Substituindo pela média
+df['TV_Spend'] = df['TV_Spend'].fillna(df['TV_Spend'].mean())
+df['Radio_Spend'] = df['Radio_Spend'].fillna(df['Radio_Spend'].mean())
+df['Sales'] = df['Sales'].fillna(df['Sales'].mean())
+
+# Eliminando valores nulos
+#
+#
