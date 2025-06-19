@@ -45,9 +45,3 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder, MinMaxScaler
 from sklearn.naive_bayes import GaussianNB as GNB
 
-https://blog.dp6.com.br/desmistificando-o-marketing-mix-modelling-346a72a147ac
-
-https://metricasboss.com.br/artigos/google-meridian-a-ferramenta-de-marketing-mix-modeling-open-source-do-google
-
-https://developers.google.com/meridian/notebook/meridian-getting-started
-
