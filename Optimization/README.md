@@ -1,5 +1,9 @@
 
+- https://www.youtube.com/watch?v=lzMpvlKNQ-Y&list=PL9H2pvV0741ZxpxH36aCClPUZ6YHL9fYn
 
+- https://www.udemy.com/course/numerical-optimization-and-operations-research-in-python/?couponCode=KEEPLEARNINGBR
+
+- https://www.udemy.com/course/optimization-with-python-linear-nonlinear-and-cplex-gurobi/
 
 LOGÍSTICA DE MOVIMENTAÇÃO E ARMAZENAGEM (M&A) 45
  3.1 INTRODUÇÃO  
