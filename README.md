@@ -29,3 +29,5 @@ https://www.unibp.com.br/cursos/basico-em-exploracao-producao-de-petroleo-e-gas-
 https://www.unibp.com.br/cursos/ciencia-de-dados-aplicada-ao-mercado-de-oleo-e-gas/
 
 https://www.coursera.org/specializations/gis-mapping-spatial-analysis
+
+https://geracaoedu.com.br/
