@@ -4,6 +4,7 @@ https://atuaria.github.io/portalhalley/notas_TR.html
 
 https://atuaria.github.io/portalhalley/notas_ICA.html
 
+https://www.datacamp.com/courses/credit-risk-modeling-in-python
 
 ![436787885-827eb12e-4675-4ff4-8a38-a07d33705ebe](https://github.com/user-attachments/assets/4841bd79-f961-4ada-8b0a-83ff54e3c2f9)
 
